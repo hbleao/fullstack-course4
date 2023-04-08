@@ -1,0 +1,27 @@
+#nav-list {
+  margin: 0;
+}
+
+#nav-list li:not(:last-child) {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.main {
+  margin: 6rem 15px 6rem;
+}
+
+.product-title {
+  font-size: 16px;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.bg-gray {
+  background-color: #a1a1a1;
+}
+
+@media (min-width: 768px) {
+  .main {
+    margin: 6rem auto 6rem;
+  }
+}
